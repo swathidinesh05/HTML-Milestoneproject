@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>index.html</title>
+    </head>
+
+    <body>
+        <h1>Online Train Ticket Booking</h1>
+        <h2>Plan Your Journey Now!</h2>
+
+        <form class="" action="index.html" method="post">
+        <label for="dropdown">Journey From:</label>
+            <select id="dropdown" name="" style="width: 200px;">
+                <option>Kannur</option><option>Kozhikkode</option></select><br>
+                   <label for="dropdown">Journey To:</label>
+                <select id="dropdown" name="" style="width: 200px;">
+                    <option>Delhi</option><option>Mumbai</option></select><br>
+                <label for="dropdown">Select Train:</label>
+                <select id="dropdown" name="" style="width: 135px;">
+                 <option>Rajdhani Express</option><option>XX Express</option></select><br>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" value=""/><br>
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" vale=""/><br>
+                <label for="Number of Seats:">Number of Seats</label>
+                    <input type="number" min="1" name="Numberof seats"required><br>
+            <label for="dropdown">Ticket Class:</label>
+            <select id="dropdown" name="" style="width: 135px;">
+             <option>1st AC</option><option>2nd AC</option></select><br>
+            <label>Your Name:</label>
+            <input type="textarea"><br>  
+            <label>Your Email:</label>
+            <input type="textarea"><br>
+        <label for="fileupload">Upload ID Card:</label>
+        <Input type="file" id="fileupload" name="file" accept=".jpg,.jpeg,.png /"><br>
+            <label for="dropdown">Payment Method:</label>
+            <select id="dropdown" name="" style="width: 200px;">
+                <option>Debit Card</option><option>Credit Card</option></select><br>
+        <label>Additional Comments:</label>
+        <textarea name="name" rows="6" cols="25"></textarea><br>
+        <label for="text">Meal Preference:</label>
+             <input type="radio" name="Meal Preference:"value="Vegitarian">Vegitarian</label>
+             <input type="radio" name="Meal Preference:"value="Non-Vegitarian">Non-Vegitarian</label>
+             <fieldset style="width:200px">
+                <legend>Additional Services</legend>
+              
+                <div>
+                  <input type="checkbox" id="Wi-Fi" name="Wi-Fi" checked />
+                  <label for="Wi-Fi">Wi-Fi</label>
+                </div>
+              
+                <div>
+                  <input type="checkbox" id="Newspaper" name="Newspaper" />
+                  <label for="Newspaper">Newspaper</label>
+                </div>
+              </fieldset><br>
+              <input type="submit" value="Book Tickets" />
+              
+        
+     
